@@ -1,5 +1,5 @@
 # Data Collection, Cleaning & Exploratory Data Analysis (EDA)
-
+“EDA is the process of exploring a dataset to understand its structure, quality, patterns, outliers, and relationships, so we can make correct decisions before modeling or reporting.”
 ## Project Overview
 This project demonstrates a complete beginner-friendly workflow in Python (Pandas) for:
 1) Collecting a dataset (CSV)
@@ -44,13 +44,14 @@ Exported the cleaned dataset to a new CSV file
   Notebook containing full cleaning + EDA workflow
 
 - `project1_data_cleaning.py`  
-  Script version of the cleaning process (optional)
+  Script version of the cleaning process
+
+  - `project1_eda.py`  
+  Script version of the EDA process
 
 - `titanic_cleaned.csv`  
   Output cleaned dataset (optional)
 
-- `project1_summary.md`  
-  Short written summary of the cleaning process (optional)
 
 ## How to Run
 ### Option 1 (Recommended): Jupyter Notebook
@@ -58,5 +59,20 @@ Exported the cleaned dataset to a new CSV file
 2. Run cells from top to bottom
 
 ### Option 2: Python Script
+### Requirements
+Install dependencies:
+pip install pandas numpy matplotlib seaborn
+
 ```bash
+Run For Cleaning of data
 python project1_data_cleaning.py
+Run for EDA
+python project2_eda.py
+
+### Outputs (saved automatically):
+eda_outputs/basic_stats_numeric.csv
+eda_outputs/outlier_report_iqr.csv
+eda_outputs/correlation_matrix.csv
+eda_outputs/*.png (charts and plots)
+
+
