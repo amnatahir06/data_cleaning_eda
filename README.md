@@ -64,15 +64,10 @@ Install dependencies:
 pip install pandas numpy matplotlib seaborn
 
 ```bash
-Run For Cleaning of data
+# Run For Cleaning of data
 python project1_data_cleaning.py
-Run for EDA
+# Run for EDA
 python project2_eda.py
 
-### Outputs (saved automatically):
-eda_outputs/basic_stats_numeric.csv
-eda_outputs/outlier_report_iqr.csv
-eda_outputs/correlation_matrix.csv
-eda_outputs/*.png (charts and plots)
 
 
