@@ -62,6 +62,9 @@ Exported the cleaned dataset to a new CSV file
 ### Requirements
 Install dependencies:
 pip install pandas numpy matplotlib seaborn
+### Check results in:
+titanic_cleaned.csv
+eda_outputs/
 
 ```bash
 # Run For Cleaning of data
@@ -69,9 +72,7 @@ python project1_data_cleaning.py
 # Run for EDA
 python project2_eda.py
 '''
-### Check results in:
-titanic_cleaned.csv
-eda_outputs/
+
 
 
 
