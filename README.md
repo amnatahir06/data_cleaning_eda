@@ -71,7 +71,6 @@ eda_outputs/
 python project1_data_cleaning.py
 # Run for EDA
 python project2_eda.py
-'''
 
 
 
