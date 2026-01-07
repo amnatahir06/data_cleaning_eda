@@ -68,6 +68,10 @@ pip install pandas numpy matplotlib seaborn
 python project1_data_cleaning.py
 # Run for EDA
 python project2_eda.py
+'''
+### Check results in:
+titanic_cleaned.csv
+eda_outputs/
 
 
 
